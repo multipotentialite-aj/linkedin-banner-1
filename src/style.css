@@ -1,0 +1,19 @@
+h1 {
+    background-image: linear-gradient(
+  60deg,
+  hsl(240deg 95% 46%) 0%,
+  hsl(200deg 100% 50%) 58%,
+  hsl(176deg 86% 86%) 100%
+);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+body {
+    display: grid;
+    place-items: center;
+    padding: clamp(1.44rem, 1.12rem + 1.58vw, 2.25rem);
+    background: #111d24;
+    color: #f3f3f3;
+    font-family: 'Bebas Neue', cursive;
+}
